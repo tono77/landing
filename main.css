@@ -1,10 +1,18 @@
 html body {
   box-sizing:border-box;
   margin:0;
+  font-family: 'Quicksand', sans-serif;
+
 }
 
 .clearfix {
   clear:both;
+}
+
+a {
+  text-decoration: none;
+  color:gray;
+
 }
 
 ul {
@@ -26,13 +34,9 @@ h1 {
   width:50%;
   margin: 0 auto;
   margin-top: 70px;
-}
+  font-family: 'Inconsolata', monospace;
+  font-size: 50px;
 
-h3 {
-  text-align: center;
-  width:50%;
-  margin: 0 auto;
-  margin-top: 30px;
 }
 
 h2 {
@@ -41,6 +45,18 @@ h2 {
   width:100%;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+h4 {
+  text-decoration: bold;
+}
+
+p {
+  text-align: center;
+  width:60%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 18px;
 }
 
 .white {
@@ -52,6 +68,7 @@ h2 {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -62,7 +79,7 @@ h2 {
 .btn_container {
   text-align: center;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .btn {
@@ -76,11 +93,13 @@ h2 {
 }
 
 .btn.azul {
-  background-color: blue;
+  background-color: #2196f3;
+  width: 110px;
 }
 
 .btn.verde {
-  background-color: green;
+  background-color: #4caf50;
+  width: 110px;
 }
 
 .content {
@@ -96,30 +115,29 @@ h2 {
 }
 
 .calltoaction {
-  border: solid 1px gray;
-  background-color: gray;
+  background-color: rgba(6, 6, 6, 0.08);
   margin: 0 auto;
   text-align: center;
-  margin_bottom: 30px
+  margin-bottom: 30px;
   padding:20px 0 20px 0;
 }
 
-.contact {
-
-}
-
 .contact_left {
-margin-top: 100px;
-margin-left: 200px;
-display: inline-block;
-
+  /*margin-top: 100px;*/
+  text-align: left;
+  margin-left: 200px;
+  display: inline-block;
+  /*width:50%;*/
+  /*float: right;*/
 
 }
 
 .contact_right {
-  margin-left: 100px;
+  /*margin-left: 100px;*/
   display: inline-block;
-
+  float:right;
+  margin-right: 200px;
+  /*width:40%;*/
 }
 
 .footer {
